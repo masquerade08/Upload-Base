@@ -1,0 +1,14 @@
+.main-container{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    /* border:lime solid 1px; */
+    
+}
+@media (max-width: 768px) {
+    .main-container{
+        display: flex;
+        flex-direction: column;
+    }
+}

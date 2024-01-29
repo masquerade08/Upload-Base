@@ -1,0 +1,103 @@
+.menu-cont{
+    width:218px;
+    height:100vh;
+    background-color: #ffffff;
+   /*  border:goldenrod solid 2px; */
+    width:20%;
+}
+
+.menu-head{
+    position:relative;
+    width:111px;
+    height:42px;
+    left:56px;
+    top:42px;
+    color:black;
+    /* border: green solid 2px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-head svg{
+    width: 42px;
+height: 42px;
+flex-shrink: 0;
+    position:absolute;
+    fill: var(--Primary, #605BFF);
+}
+.menu-head p{
+    position:absolute;
+    right:0px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+}
+
+
+.menu-name {
+    position: absolute;
+    width:154px;
+    height:425px;
+   /*  border:green solid 1px; */
+    top:142px;
+    left:0;
+    padding-left:31px;
+    /* background-color: #333; */
+    /* padding: 10px 0; */ /* Adjust as needed */
+  }
+  
+  .menu-items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    padding: 0px;
+    height:26.43px; 
+    /* border:pink solid 1px; */
+  }
+  
+  .menu-item svg {
+    width: 24px; /* Adjust image size as needed */
+    height: 26px; /* Adjust image size as needed */
+    margin-right: 10px;
+    opacity: 0.4; 
+    flex-shrink: 0;/* Adjust spacing between image and text */
+  }
+  
+  .menu-item h3 {
+    color: #9A9AA9;
+
+/* font-family: Nunito; */
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+  }
+.highlight{
+  border-radius: 0px 5px 5px 0px;
+  opacity: 0.2;
+  background: linear-gradient(90deg, #605bff 0%, rgba(172, 169, 255, 0.00) 91.25%);
+ 
+}
+
+
+
+  @media (max-width: 768px) {
+    .menu-cont{
+      display: none;
+    }
+}
+
+
+
+
+
+  

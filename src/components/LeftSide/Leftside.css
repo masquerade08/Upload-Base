@@ -1,0 +1,120 @@
+.left-cont{
+ 
+    width:45%;
+    /* border:maroon solid 1px; */
+    overflow: hidden;
+    position: relative;
+   
+    background-color:#f8faff ;
+}
+
+
+.left-inside-cont{
+    position: absolute;
+  top: 0;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #605BFF; /* Adjust background color as needed */
+  transform: skewX(-10deg); /* Adjust skew angle as needed */
+  transform-origin: top left;
+  /* border:maroon solid 4px; */
+}
+.left-cont > .left-inside-cont > * {
+  transform: skewX(10deg); /* Apply reverse skew to counteract the parent skew */
+}
+.logo{
+  position:relative;
+  left:61.03px;
+  top:54.32px;
+  fill: #FCFCFF;
+  /* transform: skewY(20); */
+}
+.superimposed-svg{
+ /*  border:green solid 2px; */
+  position: absolute;
+  left:0%;
+  top:24.32px;
+}
+.text-cont{
+    position: absolute;
+   width:205px;
+   height:88px;
+  left: 35%;
+  top:462.37px;
+  /* line-height: auto; */
+  color:white;
+  display: flex;
+  justify-content: center;
+  color: #FFF;
+font-family: Montserrat;
+font-size: 70px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.link-cont{
+    position: absolute;
+    width:299px;
+    height:48px;
+    left: 35%;
+    top: 850px;
+    /* border:red solid 1px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.link-cont svg{
+  cursor: pointer;
+}
+.mob-view{
+  display: none;
+}
+
+
+
+@media (max-width: 768px) {
+  .left-cont{
+    width:100%;
+  }
+.mob-view{
+  display: block;
+  width:100%;
+  /* border:green solid 4px; */
+  
+  height:80px;
+  flex-shrink: 0;
+  background-color:#605BFF; ;
+
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding-left:20px ;
+  align-items: center;
+}
+.mob-view svg{
+  fill: #FAFAFB;
+  width: 25.99px;
+height: 26px;
+flex-shrink: 0;
+margin-right: 10px;
+}
+.mob-view div{
+  color: #FAFAFB;
+/* font-family: Nunito; */
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.left-inside-cont{
+  display: none;
+}
+.superimposed-svg{
+ /*  border:green solid 2px; */
+  position: absolute;
+  left:4.5%;
+  top:27px;
+}
+}

@@ -1,0 +1,263 @@
+
+.right-inside-cont{
+    position:absolute;
+    width:52%;
+    /* border:red solid 3px; */
+    right:0%;
+    height:100vh;
+   background-color:#f8faff ;
+}
+
+.form-card{
+    /* border:green solid 1px; */
+    background-color: white;
+}
+.signin{
+    position:absolute;
+    top:235px;
+    width: 143px;
+    height:48px;
+   
+    color: #000;
+font-family: Montserrat;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+.signin-text{
+    position: absolute;
+    width: 176px;
+    height:20px;
+ top:289.11px;
+ color: #000;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.auth{
+    position: absolute;
+    top:338.51px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+   /*  border:pink solid 1px; */
+}
+.signin-google,.signin-apple{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 197.596px;
+height: 32.933px;
+background-color: white;
+/* border: red solid 1px; */
+/* flex-shrink: 0; */
+/* text-align: center; */
+font-family: Montserrat;
+font-size: 12px;
+/* font-style: normal; */
+font-weight: 400;
+/* line-height: normal; */
+}
+.signin-google div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.form-card{
+    position:absolute;
+    top:398px;
+    /* border:goldenrod solid 1px; */
+    display: flex;
+width: 422.635px;
+height: 347.988px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+}
+.email{
+    display:flex;
+    flex-direction:column ;
+margin-bottom: 15px;
+}
+.email label{
+    width: 120.384px;
+height: 20.857px;
+flex-shrink: 0;
+color: #000;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.email input{
+    width: 356.77px;
+height: 43.91px;
+flex-shrink: 0;
+border-radius: 10px;
+background: var(--Background, #F5F5F5);
+border:none;
+}
+
+.credentials input::placeholder {
+    width: 155.881px;
+height: 20.857px;
+flex-shrink: 0;
+color: #000;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
+  .pwd input::placeholder{
+    width:82.332px;
+  }
+.forgot-pwd{
+    color: var(--Link, #346BD4);
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 140.122px;
+height: 20.857px;
+flex-shrink: 0;
+margin-bottom: 15px;
+
+}
+.forgot-pwd a{
+    text-decoration: none;
+}
+.submit-btn{
+    border-radius: 10px;
+background: #605BFF;
+width: 356.77px;
+height: 43.91px;
+flex-shrink: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+border:none;
+text-decoration: none;
+cursor: pointer;
+}
+.submit-btn p{
+    width: 111.928px;
+height: 23.837px;
+flex-shrink: 0;
+color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-decoration: none;
+}
+.register{
+   /*  border:green solid 1px; */
+    position: absolute;
+   top:768px;
+   width: 422px;
+height: 20.857px;
+flex-shrink: 0;
+color: var(--Secondary-Text, #858585);
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+
+}
+.register a{
+    color: var(--Link, #346BD4);
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration: none;
+}
+.mob-link-cont{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .right-inside-cont{
+        position:relative;
+        width:100%;
+       /*  border:red solid 3px; */
+        /* right:0%;
+        height:100vh; */
+        display: flex;
+        justify-content: center;
+       /*  align-items: center; */
+       background-color:#f8faff ;
+    }
+    .signin{
+position: absolute;
+top:26.7px;
+left:1%;
+    }
+    .signin-text{
+position: absolute;;
+top:86.7px;
+left:1%;
+    }
+    .auth{
+        position: absolute;
+        top:144.7px;
+        left:1%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .signin-google,.signin-apple{
+        width:150px;
+        margin-right: 5px;
+    }
+    .form-card{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        /* border:green solid 1px; */
+        background-color: white;
+        top:214px;
+        right:10;
+    }
+    .register{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top:632px;
+    }
+    .mob-link-cont{
+        display: block;
+        width:30%;
+        position: absolute;
+        
+        bottom:5%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        left:35%;
+        
+    }
+    .mob-link-cont svg{
+        background: #F8FAFF;
+    }
+
+    }

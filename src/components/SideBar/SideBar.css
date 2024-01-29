@@ -1,0 +1,107 @@
+.container{
+    position: relative;
+    width:100vw;
+    height:100vh;
+   
+    /* background-color: grey; */
+    /* border:aqua solid 3px; */
+    background-color: rgba(0, 0, 0,); /* Semi-transparent background */
+    z-index: 999; 
+}
+
+.head{
+    position:relative;
+    width:111px;
+    height:42px;
+    left:56px;
+    top:40px;
+    color:black;
+   /*  border: green solid 2px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.head svg{
+    width: 42px;
+height: 42px;
+flex-shrink: 0;
+    position:absolute;
+    fill: var(--Primary, #605BFF);
+}
+.head p{
+    position:absolute;
+    right:0px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+}
+.close{
+    width:20%;
+    /* border:red solid 1px; */
+    position:fixed;
+    right:20px;
+    top:50px;
+    width: 40px;
+height: 40px;
+cursor: pointer;
+}
+
+
+  
+  .items {
+    position: absolute;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    top:100px;
+    /* right:50px; */
+  }
+  
+  .item {
+    
+    width:80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+   /*  padding: 0px; */
+    height:26.43px; 
+   /*  border:pink solid 1px; */
+  }
+  
+  .item svg {
+    position: relative;
+    width: 24px; /* Adjust image size as needed */
+    height: 26px; /* Adjust image size as needed */
+    padding-right: 10px;
+    opacity: 0.4; 
+    flex-shrink: 0;/* Adjust spacing between image and text */
+  }
+  
+  .item h3 {
+    color: #9A9AA9;
+
+/* font-family: Nunito; */
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+  }
+
+
+
+
+  @media (min-width: 768px) {
+    .container{
+      display: none;
+    }
+}
+
+
+
+
+
+  
